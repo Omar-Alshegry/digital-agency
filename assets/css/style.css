@@ -102,13 +102,23 @@
 .bas{
     flex:0 0 calc(100% / 3);
 }
-.carousel-indicators [data-bs-target] {
+.carousel-indicators [data-bs-target].active {
     width: 16px;
     height: 16px;
     border-radius: 50%;
+    border: 3px solid #8EADD5 !important;
     background-color: #8EADD5;
+    border: none;
+}
+.carousel-indicators [data-bs-target]{
+    background: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 3px solid #8EADD5;
 }
 .carousel-indicators {
+    box-sizing: border-box;
     bottom: -60px;
 }
 .box-support{
