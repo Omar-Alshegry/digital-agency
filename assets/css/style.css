@@ -28,9 +28,11 @@
     padding-right: var(--padding-left-rigt);
 }
 
-.btn-hover:hover{
+.bg-btn{
     background-color: #8EADD5 !important;
-    border: none;
+    &:hover{
+        background-color: #609ff2 !important;
+    }
 }
 .padd-top-171{
     padding-top: 171px;
@@ -163,16 +165,16 @@
     .bas{
         flex-basis: 100%;
     }
-.support{
-    text-align: center;
-}
-.box-support{
-    padding: 56px 35px 50px 35px;
-}
-.padd-x-0{
-    padding-left: 0;
-    padding-right: 0;
-}
+    .support{
+        text-align: center;
+    }
+    .box-support{
+        padding: 56px 35px 50px 35px;
+    }
+    .padd-x-0{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 
